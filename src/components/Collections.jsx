@@ -16,28 +16,28 @@ function Collections() {
 
             <div id='collects-container' className="collects-container">
                 <div className="box">
-                    {<ImageComponent src={FirstBox} index={'first-box'}/>}
+                    {<ImageComponent src={FirstBox}/>}
                     <div className="text">
                         <h1 className='title'>new arrivals</h1>
                         <button className="view-bt">view more</button>
                     </div>
                 </div>
                 <div className="box">
-                    {<ImageComponent src={SecondBox} index={'sec-box'}/>}
+                    {<ImageComponent src={SecondBox}/>}
                     <div className="text">
                         <h1 className='title'>best seller</h1>
                         <button className="view-bt">view more</button>
                     </div>
                 </div>
                 <div className="box">
-                    {<ImageComponent src={ThirdBox} index={'th-box'}/>}
+                    {<ImageComponent src={ThirdBox}/>}
                     <div className="text">
                         <h1 className='title'>collaborations</h1>
                         <button className="view-bt">view more</button>
                     </div>
                 </div>
                 <div className="box">
-                    {<ImageComponent src={FourthBox} index={'fr-box'}/>}
+                    {<ImageComponent src={FourthBox}/>}
                     <div className="text">
                         <h1 className='title'>collections</h1>
                         <button className="view-bt">view more</button>
