@@ -9,7 +9,7 @@ function Footer() {
     <>
         <div className="design-by-continer">
             <div className="bg">
-                {<ImageComponent src={Bg}/>}
+                {<ImageComponent src={Bg} index={'footer'}/>}
             </div>
             <h1 className='text'>designed in manchester, england with the<br/>highest level of detail and care, manufactured<br/>by ethical suppliers worldwide.<br/><br/>we aim to evolve our unique identity globally.</h1>
         </div>

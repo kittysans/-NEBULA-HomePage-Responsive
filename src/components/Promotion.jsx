@@ -8,7 +8,7 @@ function Promotion() {
   return (
     <>
       <div className="promotion-container">
-        <ImageComponent src={Bg}/>
+        <ImageComponent src={Bg} index={'pro'}/>
 
         <div className="text">
           <h1 className="title">new season</h1>

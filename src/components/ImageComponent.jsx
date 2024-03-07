@@ -1,29 +1,27 @@
 import { useEffect, useRef, useState } from 'react'
 import './ImageComponent.css'
 
-export default function ImageComponent({ src }) {
-    const [isImageLoaded, setIsImageLoaded] = useState(false)
-    
-    const imgRef = useRef(null)
+export default function ImageComponent({ src, index }) {
+  const [isImgLoaded, setIsImgLoaded] = useState(false)
+  
+  function show() {
+    setIsImgLoaded(true)
+  }
 
-    useEffect(() => {
-      const img = imgRef.current.querySelector('img')
+  useEffect(() => {
+    const img = document.querySelector(`#${index}`)
 
-      function show() {
-        setIsImageLoaded(true)
-      }
-
-      if (img.complete) {
-        show()
-      } else {
-        img.addEventListener('load', show)
-      }
-    }, [src])
+    if (img.complete) {
+      show()
+    } else {
+      img.addEventListener('load', show)
+    }
+  }, [src])
 
   return (
     <>
-        <div id='img' className="img-container" ref={imgRef}>
-            <img src={src} loading='lazy' style={{ display: isImageLoaded ? 'block' : 'none'}}/>
+        <div className="img-container">
+            <img src={src} loading='lazy' id={index}/>
         </div>
     </>
   )

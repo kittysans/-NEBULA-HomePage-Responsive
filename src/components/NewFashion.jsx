@@ -9,8 +9,7 @@ function NewFashion() {
     <>
         <div className="new-fashion-container">
             <div className='aside-bg'>
-              {<ImageComponent src={AsideBg}/>}
-            {/* {<ImgContainer imageSrc={AsideBg}/>}   */}
+              {<ImageComponent src={AsideBg} index={'new-fashion'}/>}
             </div>
 
             <div className="text">
