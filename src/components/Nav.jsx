@@ -11,7 +11,7 @@ function nav() {
   return (
     <>
         <div className="nav">
-            <div className="row-1">
+            {/* <div className="row-1">
                 <div className="regster">
                     <p>regster</p>
                     <PiNotePencil className='icon'/>
@@ -51,7 +51,7 @@ function nav() {
                 <div>accessores</div>
                 <div>collaborations</div>
                 <div>sale</div>
-            </div>
+            </div> */}
         </div>
     </>
   )
