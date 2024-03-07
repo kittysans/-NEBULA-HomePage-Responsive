@@ -1,0 +1,158 @@
+.design-by-continer {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    place-content: center;
+    position: relative;
+
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        user-select: none;
+        -webkit-user-drag: none;
+        z-index: -1;
+    }
+
+    .text {
+        font-size: 2.5vw;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        z-index: 100;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background: #000;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    .row-container {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        font-size: 11vw;
+        text-wrap: nowrap;
+        font-weight: bold;
+        text-transform: uppercase;
+        animation: InfinityLoopBrand 10s linear infinite;
+        user-select: none;
+
+        .row {
+            display: inline-block;
+
+            span {
+                margin-right: 70px;
+            }
+        }
+    }
+
+    .order-email {
+        --height-input-button: 40px;
+
+        position: absolute;
+        top: 73%;
+        left: 2%;
+        translate: 0 -50%;
+        display: grid;
+        gap: 20px;
+
+        h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1em;
+            font-size: 300;
+            text-transform: uppercase;
+        }
+
+        input {
+            width: 100%;
+            padding-inline: 20px;
+            height: var(--height-input-button);
+            border: 0;
+            outline: none;
+            background: #000;
+            color: #fff;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+        }
+        input::placeholder {
+            color: #fff;
+        }
+
+        .sub-bt {
+            width: 130px;
+            height: var(--height-input-button);
+            background: #fff;
+            color: #000;
+            font-size: .9em;
+            font-weight: 500;
+            display: grid;
+            place-content: center;
+            text-transform: capitalize;
+            border-radius: 20px;
+            background: #fff;
+            cursor: pointer;
+            transition: color .3s, transform .1s;
+            transform-origin: center;
+            user-select: none;
+            border: none;
+            outline: none;
+            -webkit-user-select: none;
+        }
+        .sub-bt:active {
+            transform: scale(.96);
+        }
+    }
+
+    .info-service {
+        position: absolute;
+        top: 60%;
+        right: 2%;
+        height: max-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .info-container,
+        .service-container {
+            h1 {
+                font-size: 1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+            p {
+                color: #ccc;
+                font-size: .8em;
+                margin-bottom: 3px;
+                text-transform: uppercase;
+                transition: all .1s;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+            p:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@keyframes InfinityLoopBrand {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,142 @@
+.nav {
+    --margin: 0 5%;
+    --font-weight: 500;
+    --height-fir-thi-row: 40px;
+
+    .row-1 {
+        --font-size: .7em;
+        --gap: 6px;
+        
+        display: grid;
+        padding: var(--margin);
+        height: var(--height-fir-thi-row);
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+
+        .regster {
+            display: inline-flex;
+            width: min-content;
+            align-items: center;
+            justify-content: start;
+            cursor: pointer;
+    
+            p {
+                font-size: var(--font-size);
+                margin-right: var(--gap);
+                font-weight: var(--font-weight);
+                text-transform: uppercase;
+            }
+            .icon {
+                font-size: var(--font-size);
+            }
+        }
+    
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            p {
+                font-size: var(--font-size);
+                font-weight: var(--font-weight);
+                text-transform: uppercase;
+            }
+        }
+    
+        .login {
+            display: inline-flex;
+            align-items: center;
+            justify-content: end;
+    
+            p {
+                font-size: var(--font-size);
+                font-weight: var(--font-weight);
+                text-transform: uppercase;
+                padding: var(--gap);
+                cursor: pointer;
+            }
+            .icon {
+                font-size: var(--font-size);
+                cursor: pointer;
+            }
+        }
+    }
+    .row-1::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        translate: -50%;
+        width: 100%;
+        height: 1px;
+        background: #ccc;
+    }
+
+    .row-2 {
+        --space: 50%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 70px;
+        margin: var(--margin);
+
+        .categorys {
+            display: flex;
+            align-items: center;
+            font-size: .8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            gap: 5%;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+
+        .activities {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 11%;
+            font-size: 1.1em;
+        }
+
+        .item {
+            width: max-content;
+            padding: 2px;
+            box-sizing: content-box;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .icon {
+            cursor: pointer;
+        }
+    }
+
+    .row-3 {
+        --font-size: .7em;
+
+        padding-inline: 20%;
+        height: var(--height-fir-thi-row);
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+
+        div {
+            display: grid;
+            place-content: center;
+            cursor: pointer;
+            margin-right: 10px;
+            padding-inline: 5px;
+            font-size: var(--font-size);
+            font-size: .6em;
+            text-transform: uppercase;
+        }
+    }
+}
