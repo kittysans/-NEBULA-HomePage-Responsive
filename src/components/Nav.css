@@ -384,12 +384,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 60px;
-            padding-inline: 3%;
+            height: 80px;
+            padding-inline: 5%;
 
             .brand {
                 font-size: clamp(20px, 3.3vw, 30px);
-                /* font-size: 3.3vw; */
                 font-weight: 600;
                 text-transform: uppercase;
             }
@@ -398,7 +397,6 @@
             .menu-icon {
                 margin-left: 20px;
                 font-size: clamp(20px, 2.9vw, 30px);
-                /* font-size: 2.9vw; */
                 user-select: none;
                 cursor: pointer;
             }
