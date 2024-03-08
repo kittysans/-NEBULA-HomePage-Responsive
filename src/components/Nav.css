@@ -193,8 +193,8 @@
         }
 
         .row-1 {
-            display: block;
             grid-row: 3;
+            display: block;
             padding: 0;
             width: 100%;
             height: max-content;
@@ -274,7 +274,7 @@
 
         .arrow {
             display: block;
-            font-size: var(--font-size-phone);
+            font-size: 1em;
             margin-left: auto;
         }
 
@@ -292,7 +292,7 @@
                 width: 100%;
                 height: max-content;
                 display: block;
-                font-size: var(--font-size-phone);
+                font-size: 1em;
                 font-weight: 500;
                 cursor: pointer;
             }
