@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Nav/>
-      {/* <Promotion/>
+      <Promotion/>
       <BestSellers/>
       <Collections/>
       <NewFashion/>
-      <Footer/> */}
+      {/* <Footer/> */}
     </>
   )
 }

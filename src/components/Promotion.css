@@ -19,6 +19,7 @@
         place-items: center;
         gap: 15px;
         color: #fff;
+        text-align: center;
 
         .title {
             font-size: 1.8em;
@@ -55,5 +56,11 @@
              background: #fff;
              color: #000;
         }
+    }
+}
+
+@media screen and (width <= 500px) {
+    .promotion-container {
+        height: 500px;
     }
 }

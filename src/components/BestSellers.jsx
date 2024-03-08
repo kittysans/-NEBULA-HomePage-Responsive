@@ -58,7 +58,9 @@ function BestSellers() {
                 <div id='moveable-element' className="products-container">
                     {BestSellersPackage.map((product, index) => (
                         <div className="card" key={index}>
-                            {<ImageComponent src={product.imgs.Show}/>}
+                            <div className="img-section">
+                                {<ImageComponent src={product.imgs.Show}/>}
+                            </div>
                             <div className="detail">
                                 <div className="name-price">
                                     <p className='name'>{product.Name}</p>

@@ -128,7 +128,6 @@
     .row-3 {
         --font-size: .7em;
 
-        padding-inline: 20%;
         height: var(--height-fir-thi-row);
         background: #000;
         color: #fff;
@@ -136,8 +135,9 @@
         justify-content: center;
 
         div {
-            display: grid;
-            place-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
             margin-right: 10px;
             padding-inline: 5px;

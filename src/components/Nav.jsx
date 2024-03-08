@@ -23,6 +23,9 @@ function nav() {
 
         closeMenuBt.addEventListener('click', toggleMenu)
         openMenuBt.addEventListener('click', toggleMenu)
+        navContainer.addEventListener('click', (e) => {
+            e.target.id == 'nav-container' ? toggleMenu() : null
+        })
     }, [])
   return (
     <>
