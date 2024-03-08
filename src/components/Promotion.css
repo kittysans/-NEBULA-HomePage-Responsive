@@ -15,6 +15,7 @@
         bottom: 10%;
         left: 50%;
         translate: -50%;
+        width: 80%;
         display: grid;
         place-items: center;
         gap: 15px;

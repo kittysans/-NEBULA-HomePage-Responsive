@@ -78,6 +78,9 @@
 }
 
 @media screen and (width <= 767px) {
+    .introduce-journey {
+        height: 350px;
+    }
     .collects-container {
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr 1fr 1fr;

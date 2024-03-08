@@ -176,6 +176,8 @@
 
 @media screen and (width <= 767px) {
     .sell-container {
+        --margin-left: 4%;
+
         .circle {
             display: none;
         }
@@ -187,32 +189,22 @@
         height: 500px;
 
         .title {
+            bottom: 75%;
             font-size: 1.5em;
         }
 
-        .view-move-bt {
-            font-size: .7em;
+        /* .view-move-bt {
+            display: none;
+            bottom: 75%;
+            font-size: .4em;
             padding: 5px 15px;
-        }
+        } */
 
         .products-container {
-            --width-card: 250px;
+            --width-card: 225px;
+            top: 32%;
 
             height: 325px;
-
-            
-            /* .detail {
-                .name-price {
-                    .name {
-                        font-size: .75em;
-
-                    }
-                    .price {
-                        font-size: .75em;
-
-                    }
-                }
-            } */
         }
     }
 }
