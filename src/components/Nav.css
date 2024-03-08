@@ -378,6 +378,8 @@
             font-size: clamp(13px, 1.9vw, 30px);
             font-weight: 500;
             background: #eee;
+            padding-inline: 20%;
+            text-align: center;
         }
 
         .header {
