@@ -1,6 +1,6 @@
 .introduce-journey {
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: grid;
     place-content: center;
 
@@ -72,6 +72,19 @@
             .view-bt:hover {
                 background: #fff;
                 color: #000;
+            }
+        }
+    }
+}
+
+@media screen and (width <= 1024px) {
+    .collects-container {
+        .box {
+            .text {
+                .view-bt:hover {
+                    background: transparent;
+                    color: #fff;
+                }
             }
         }
     }

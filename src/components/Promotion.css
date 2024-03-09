@@ -60,6 +60,18 @@
     }
 }
 
+
+@media screen and (width <= 1024px) {
+    .promotion-container {
+        .text {
+            .shop-bt:hover {
+                background: transparent;
+                color: #fff;
+            }
+        }        
+    }
+}
+
 @media screen and (width <= 500px) {
     .promotion-container {
         height: 500px;

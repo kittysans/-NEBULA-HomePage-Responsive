@@ -15,7 +15,7 @@ function App() {
       <BestSellers/>
       <Collections/>
       <NewFashion/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

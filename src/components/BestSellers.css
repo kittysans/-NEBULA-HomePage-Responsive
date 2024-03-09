@@ -171,6 +171,11 @@
         .circle {
             left: 65%;
         }
+
+        .view-move-bt:hover {
+            background: transparent;
+            color: #000;
+        }
     }
 }
 
@@ -193,18 +198,23 @@
             font-size: 1.5em;
         }
 
-        /* .view-move-bt {
+        .view-move-bt {
             display: none;
-            bottom: 75%;
-            font-size: .4em;
-            padding: 5px 15px;
-        } */
+        }
 
         .products-container {
             --width-card: 225px;
             top: 32%;
 
             height: 325px;
+
+            .card {
+                .detail {
+                    .name-price {
+                        font-size: .6em;
+                    }
+                }
+            }
         }
     }
 }
