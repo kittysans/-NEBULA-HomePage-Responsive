@@ -1,56 +1,3 @@
-/* @media screen and (width <= 1024px) {
-    .sell-container {
-        .circle {
-            left: 65%;
-        }
-
-        .view-move-bt:hover {
-            background: transparent;
-            color: #000;
-        }
-    }
-}
-
-@media screen and (width <= 767px) {
-    .sell-container {
-        --margin-left: 4%;
-
-        .circle {
-            display: none;
-        }
-    }
-}
-
-@media screen and (width <= 500px) {
-    .sell-container {
-        height: 500px;
-
-        .title {
-            bottom: 75%;
-            font-size: 1.5em;
-        }
-
-        .view-move-bt {
-            display: none;
-        }
-
-        .products-container {
-            --width-card: 225px;
-            top: 32%;
-
-            height: 325px;
-
-            .card {
-                .detail {
-                    .name-price {
-                        font-size: .6em;
-                    }
-                }
-            }
-        }
-    }
-} */
-
 .sell-container {
     --padding-inline: 50px;
 
@@ -67,15 +14,15 @@
         justify-content: space-between;
 
         .title {
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: 500;
-            text-transform: uppercase;
+            text-transform: capitalize;
         }
 
         .view-move-bt {
             border-radius: 20px;
             border: 1px solid #000;
-            width: 120px;
+            width: 100px;
             height: 30px;
             display: grid;
             place-items: center;
@@ -85,6 +32,7 @@
             transition: background-color .3s, color .3s, transform .1s;
             outline: none;
             transform-origin: center;
+            text-transform: capitalize;
             user-select: none;
             -webkit-user-select: none;
         }
@@ -184,16 +132,6 @@
                 .details {
                     display: none;
                 }
-            }
-        }
-    }
-}
-
-@media screen and (width <= 500px) {
-    .sell-container {
-        .bar {
-            .view-move-bt {
-                display: none;
             }
         }
     }

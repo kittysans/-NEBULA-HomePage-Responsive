@@ -9,7 +9,7 @@ function BestSellers() {
         <>
             <div className="sell-container">
                 <div className="bar">
-                    <h1 className='title'>our bestsellers</h1>
+                    <h1 className='title'>bestsellers</h1>
                     <button className="view-move-bt">view more</button>
                 </div>
 
