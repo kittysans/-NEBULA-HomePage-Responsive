@@ -63,6 +63,7 @@
 
 @media screen and (width <= 1024px) {
     .promotion-container {
+        height: 500px;
         .text {
             .shop-bt:hover {
                 background: transparent;
@@ -74,6 +75,6 @@
 
 @media screen and (width <= 500px) {
     .promotion-container {
-        height: 500px;
+        height: 400px;
     }
 }
