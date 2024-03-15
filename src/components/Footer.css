@@ -196,6 +196,7 @@
             }
             .sub-bt {
                 width: 100%;
+                font-size: .8em;
             }
             .sub-bt:active {
                 transform: scale(1);
@@ -220,7 +221,9 @@
 
 @media screen and (width <= 500px) {
     .design-by-continer {
-        height: 400px;
+        .text {
+            font-size: 1.3em;
+        }
     }
 
     .footer {
