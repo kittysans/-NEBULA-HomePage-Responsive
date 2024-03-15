@@ -11,7 +11,7 @@ function Footer() {
             <div className="bg">
                 {<ImageComponent src={Bg}/>}
             </div>
-            <h1 className='text'>designed in manchester, england with the<br/>highest level of detail and care, manufactured<br/>by ethical suppliers worldwide.<br/><br/>we aim to evolve our unique identity globally.</h1>
+            <h1 className='text'>designed in manchester, england with the highest level of detail and care, manufactured by ethical suppliers worldwide.<br/><br/>we aim to evolve our unique identity globally.</h1>
         </div>
 
         <div className="footer">

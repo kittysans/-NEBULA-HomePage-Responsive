@@ -156,10 +156,8 @@
 }
 
 /* phone */
-@media screen and (width <= 767px) {
+@media screen and (width <= 900px) {
     .nav {
-        --font-size-phone: 3vw;
-        --height-bt: 50px;
         --padding-left-right-bt: 0 7%;
 
         width: 60%;
